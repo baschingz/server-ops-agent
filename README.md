@@ -5,12 +5,14 @@ This project is designed to automate server operations and manage infrastructure
 ## Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd server-ops-agent
    ```
 
 2. **Set up the environment**
+
    - Ensure you have Python 3.8+ installed.
    - Install dependencies:
      ```bash
@@ -26,8 +28,9 @@ This project is designed to automate server operations and manage infrastructure
 ## Usage
 
 1. **Run the application**
+
    ```bash
-   uvicorn app.main:app --reload
+   python app/main.py
    ```
 
 2. **Interact with the system**
